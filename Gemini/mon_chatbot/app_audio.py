@@ -1,7 +1,7 @@
 import chainlit as cl
 import google.generativeai as genai 
 
-genai.configure(api_key="AIzaSyCG2c87mxzHBscZCmIPykKRPj4xiavV3XY")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
 
 @cl.on_chat_start
